@@ -1,5 +1,6 @@
 h1{
     color:#1f1f14;
+    font-size: 40px;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -8,14 +9,22 @@ body{
 .skip-color{
     color: orangered;
 }
+#color-change{
+    color: gray;
+}
+section{
+    display: flex;
+}
 .first-part{
     width: 50%;
     padding: 5%;
 }
-
+.first-part img{
+    width: 80%;
+}
 .order-button{
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 10px 20PX;
     border-radius: 5px;
     background-image: linear-gradient(orange, tomato);
     color: wheat;
