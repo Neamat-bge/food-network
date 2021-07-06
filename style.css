@@ -1,15 +1,18 @@
 h1{
     color:#1f1f14;
-    font-size: 40px;
+    font-size: 40px; 
 }
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+h4{
+    font-weight: 400;
+}
 .skip-color{
     color: orangered;
 }
-#color-change{
+.color-change{
     color: gray;
 }
 section{
@@ -34,6 +37,7 @@ section{
 .middle-container{
     background-image: url(images/frame.jpg);
     background-size: cover;
+    padding-right: 3%;
 }
 #recepie-list{
     text-align: center;
@@ -52,4 +56,13 @@ section{
 }
 .column img{
     border-radius: 20px;
+}
+.bottom-container{
+    border: 5px solid black;
+    text-align: center;
+    background-color: black;
+    padding: 5%;
+}
+#bottom-text-color{
+    color: white;
 }
